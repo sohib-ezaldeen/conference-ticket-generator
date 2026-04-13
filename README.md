@@ -33,10 +33,11 @@ Users can fill out a form, upload their profile image, and instantly get a style
 ## 📸 Screenshots
 
 ### 💻 Desktop View
-![Desktop Screenshot](./C:\Users\hp\Pictures\Screenshots)
+![Desktop Screenshot](./images/screenshot-desktop.png)
 
 ### 📱 Mobile View
 ![Mobile Screenshot](./images/screenshot-mobile.png)
+
 
 ---
 
