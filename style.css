@@ -82,13 +82,12 @@ form {
   width: 100%;
   margin-top: 1rem;
 }
- 
+
 .upload-avatar span {
   font-size: 0.8rem;
   color: var(--Neutral-300);
 }
 .upload-avatar label {
- 
   border-radius: 8px;
   padding: 15px 0;
   background-color: var(--Neutral-900);
@@ -101,12 +100,11 @@ form {
 
   position: relative;
 }
-.upload-avatar label:hover{
+.upload-avatar label:hover {
   cursor: pointer;
 }
 .upload-avatar label:hover .avatar {
   transform: scale(1.02);
-  
 }
 .upload-avatar label .avatar {
   background-color: var(--Neutral-700);
@@ -308,7 +306,7 @@ input:-webkit-autofill {
   position: relative;
   max-width: 450px;
   margin: 4rem auto;
-  background-image: url(/images/pattern-ticket.svg);
+  background-image: url(images/pattern-ticket.svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 200px;
@@ -383,7 +381,7 @@ input:-webkit-autofill {
   .profile-user img {
     width: 50px;
   }
-  .ticket-number{
+  .ticket-number {
     right: 0;
   }
 }
