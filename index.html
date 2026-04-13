@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Conference ticket generator</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <h1>
+        <img src="images/logo-full.svg" alt="logo of page" class="logo" />
+      </h1>
+      <div class="info ">
+        <h2>Your Journey to Coding Conf 2025 Starts Here!</h2>
+        <p>Secure your spot at next year's biggest coding conference.</p>
+      </div>
+      <div class="box-ticket none">
+        <div class="info-tecket">
+          <h2>
+            Congrats,
+            <p class="user-name">sohib ezaldeen</p>!
+            Your ticket is ready.
+          </h2>
+          <p>
+            We've emailed your ticket to
+            <span class="email-user">Sohibezaldeen@gmail.com</span> and will send updates in the
+            run up to the event.
+          </p>
+        </div>
+        <div class="ticket-box">
+          <p class="ticket-number">#01564</p>
+         <div class="info-event">
+           <h1>
+            <img src="images/logo-full.svg" alt="logo of page" class="logo" />
+          </h1>
+          <div class="date">
+            <span class="month">jun</span>
+            <span class="day">14,</span>
+            <span class="yaer">2026</span>
+            <span>/</span>
+            <span>   Austin, TX</span>
+
+          </div>
+         </div>
+         <div class="user">
+          <div class="profile-user">
+            <img  class="user-profile" src="images/image-avatar.jpg" alt="" srcset="">
+          </div>
+            <div class="info-user">
+              <p class="name-user">sohib EZALDEEN</p>
+              <p class="github-user"><img src="images/icon-github.svg" alt="" srcset="">@SOHIBEZALDEEN</p>
+            </div>
+         </div>
+        </div>
+      </div>
+      <!-- Form starts -->
+      <form action="" method="get">
+        <div class="upload-avatar">
+          <span class=""> Upload Avatar</span>
+          <label for="avatar-field">
+            <img
+              src="images/icon-upload.svg"
+              class="avatar"
+              alt="error icon upload"
+            />
+            <input
+              type="file"
+              class="avatar-field"
+              name="avtar-user"
+              id="avatar-field"
+              accept="image/*"
+              aria-describedby="error-avtar"
+            />
+            <p>Drag and drop or click to upload</p>
+          </label>
+          <span class="error-avtar" id="error-avtar"
+            ><img src="images/icon-info.svg" alt="" /> Upload your photo and
+            (JPG or PNG, max size: 500KB)</span
+          >
+        </div>
+        <div class="full-name">
+          <label for="name-field">full name</label>
+          <input
+            class="name-field"
+            type="text"
+            name="name-user"
+            id="name-field"
+            aria-describedby="name-error"
+          />
+          <span class="error-name" id="name-error"
+            ><img src="images/icon-info.svg" alt="icon name error" />Please
+            enter avalid name</span
+          >
+        </div>
+        <div class="email">
+          <label for="email-field">Email Address</label>
+          <input
+            class="email-field"
+            id="email-field"
+            type="text"
+            name="Email-Address"
+            aria-describedby="email-error"
+            placeholder="example@email.com"
+          />
+          <span class="error-email" id="email-error"
+            ><img src="images/icon-info.svg" alt="icon error" />Please enter
+            avalid email address</span
+          >
+        </div>
+        <div class="github">
+          <label for="github-field"> GitHub Username</label>
+          <input
+            class="github-field"
+            id="github-field"
+            type="text"
+            name="GitHub-Username"
+            aria-describedby="github-error"
+            placeholder="@yourusername"
+          />
+          <span class="error-github" id="github-error"
+            ><img src="images/icon-info.svg" alt="icon error" />Please enter
+            avalid GitHub Username</span
+          >
+        </div>
+        <input type="submit" class="submit-btn" value="Generate My Ticket" />
+      </form> 
+      <!-- Form  end-->
+
+      <!-- Email
+ GitHub Username   -->
+
+      <!-- Form ends -->
+
+      <!-- Generated tickets starts -->
+
+      <!-- Congrats, -->
+      <!-- Full Name! Your ticket is ready. We've emailed your ticket to -->
+      <!-- Email Address -->
+      <!-- and will send updates in the run up to the event. Coding Conf Jan 31, 2025 /
+    Austin, TX -->
+
+      <!-- Generated tickets ends -->
+
+      <!-- <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </footer> -->
+      <img
+        src="images/pattern-squiggly-line-top.svg"
+        alt=""
+        srcset=""
+        class="line-top"
+      />
+      <img
+        src="images/pattern-squiggly-line-bottom-desktop.svg"
+        alt=""
+        srcset=""
+        class="line-bottom-desktop"
+      />
+      <img
+        class="line-bottom-mobile"
+        src="/images/pattern-squiggly-line-bottom-mobile-tablet.svg"
+        alt=""
+      />
+      <div class="x"></div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
