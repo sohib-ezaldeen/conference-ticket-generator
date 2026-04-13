@@ -24,7 +24,8 @@ let ticketCount = document.querySelector(".ticket-number");
 form.addEventListener("submit", (e) => {
   let data = handleSubmit();
   if (!data) {
-    return
+e.preventDefault()
+    return false;
   } else {
     e.preventDefault();
     removForm();
